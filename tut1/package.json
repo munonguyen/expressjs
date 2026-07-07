@@ -1,0 +1,25 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/munonguyen/expressjs#readme",
+  "bugs": {
+    "url": "https://github.com/munonguyen/expressjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munonguyen/expressjs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
